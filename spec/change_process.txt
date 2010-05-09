@@ -1,0 +1,20 @@
+Changes should happen in this order, although not rigorously. Use common sense,
+iterate and jump from section to section when required.
+
+Triage
+Estimate time
+Accept the bug
+Specs
+Use cases
+Tests
+End user documentation
+Move the bug to architecture
+Add info
+Architecture
+Move the bug to development
+Add info
+Time estimates
+Tests
+Code
+Automatic checks
+Version Control

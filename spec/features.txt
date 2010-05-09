@@ -1,0 +1,7 @@
+The application should enable the user to be notified at given
+intervals with audio. This should be accomplished with a subsystem that allows also arbitrary commands instead of just audio and there should be a possibility to run different kinds of commands inside a single session. 
+There must be support for intervals synchronized, random and explicitly listed. With a single
+invocation of the program the user should be able to specify several sessions.
+User must be able to define intervals with the granularity of one second.
+
+These sessions may be possible to be saved and loaded. 

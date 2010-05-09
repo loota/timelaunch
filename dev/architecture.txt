@@ -1,0 +1,5 @@
+FrontController(?) is the base class for other UI controllers. FrontController has methods that validate data and has attributes for the UI texts.
+InputControllers extend the FrontController. These take the user input and call methods on the service layer, and show the results to user.
+Service layer calls the model classes.
+Model classes model the interval handling.
+Persistence logic is dealt by separate mappers, which are called by the service layer.

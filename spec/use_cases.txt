@@ -1,0 +1,13 @@
+Basic usage
+Launch:
+    every 10 seconds for one minute: launch at 10, 20, 30, 40, 50, 60 seconds.
+    every 13 seconds for one minute with a launch after the time ends: launch at 13, 26, 39, 52, 60 seconds.
+    every 10 seconds with 50% chance of not running it, for one minute with a launch after the time ends: 50% chance for launch at 10, 20, 30, 40, 50, 60 seconds.
+    every 10 seconds with 50% chance of not running it, for one minute with a launch after the time ends. After each run there's a 25 seconds of silent time and after this silent time there's an additional launch. Example: 10 (success), 35 (quiet time ends), 50 (success), 60 (time ends)
+    to launch at 3, 20, 50, 80, 125 seconds.
+
+Compound usage
+Launch:
+    for one minute, every 10 seconds. Also a 33% chance for additional launch every 30 seconds. Example: 10, 20, 30 x 2, 40, 50, 60
+    for two minutes, every 10 seconds. Also a 33% chance for additional launch every 30 seconds a quiet time of 60 seconds, during which there is still the earlier synchronized launch. Additional launch after the quiet time. Example: 10, 20, 30 x 2, 40, 50, 60 (no chance for the additional launch), 70, 80, 90, 100, 110, 120 x 2
+    for one minute, every 10 seconds. Also a 33% chance for additional launch every 40 seconds. Also launch at 5, 45 and 55: 5, 10, 20, 30, 40 (33% for another), 45, 50, 60
